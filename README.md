@@ -1,1 +1,3 @@
-# distraction-detection
+# Distraction detection
+
+A convolutional neural network on a very small dataset consisting of only 2048 training sample images, collected via webcam using the openCV library. Explored various neural network architectures that would work on such a small dataset. The Detector has the ability to work in real-time via any webcam. The trained model could detect if the user was paying attention on the screen of the laptop or was distracted at some other place with an accuracy of 98.7%. Used OpenCV Haar Cascade Face Detector and Haar Cascade Eye Detector to detect a person's face and eyes respectively. For detected eyes, the Convolutional Neural Network(CNN)  predicts whether a person is distracted or not.
